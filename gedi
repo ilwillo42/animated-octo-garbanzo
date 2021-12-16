@@ -1,4 +1,4 @@
-<mxfile modified="2021-12-16T11:50:17.528Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gmKIlxYN4xuOdlE7989R" version="15.9.4" type="github" pages="2">
+<mxfile modified="2021-12-16T12:22:07.258Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="hrPC1VpLuUkaaHbaDlWp" version="15.9.4" type="github" pages="2">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="GEDI-DWH-Landing">
     <mxGraphModel dx="1385" dy="1075" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,11 +182,8 @@
         <mxCell id="Oz8H3fJrNm9aEJMBquKJ-93" value="Tenant GEDI" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Azure_AD_Domain_Services.svg;labelBackgroundColor=none;" parent="Oz8H3fJrNm9aEJMBquKJ-78" vertex="1">
           <mxGeometry x="900" y="10" width="19.69" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="Oz8H3fJrNm9aEJMBquKJ-84" value="VPN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;startArrow=none;startFill=0;endArrow=blockThin;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="1" source="Oz8H3fJrNm9aEJMBquKJ-80" target="Oz8H3fJrNm9aEJMBquKJ-79" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Oz8H3fJrNm9aEJMBquKJ-80" value="VPN" style="shape=mxgraph.cisco.hubs_and_gateways.vpn_gateway;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1056" width="70" height="38" as="geometry" />
+          <mxGeometry x="370" y="1056" width="65" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Oz8H3fJrNm9aEJMBquKJ-88" value="Network peering" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;startArrow=classicThin;startFill=1;endArrow=classicThin;endFill=1;strokeColor=#3399FF;strokeWidth=2;fillColor=#dae8fc;dashed=1;dashPattern=1 1;" parent="1" source="Oz8H3fJrNm9aEJMBquKJ-86" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -194,8 +191,8 @@
             <mxPoint x="760.8333333333335" y="656.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JZa6jllg3z_NGFcvetei-2" value="VPN" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.general.tunnel" vertex="1" parent="1">
-          <mxGeometry x="499" y="1083" width="50" height="9" as="geometry" />
+        <mxCell id="JZa6jllg3z_NGFcvetei-2" value="VPN&lt;br&gt;connection-gedi" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.general.tunnel" vertex="1" parent="1">
+          <mxGeometry x="498" y="1069" width="50" height="9" as="geometry" />
         </mxCell>
         <mxCell id="JZa6jllg3z_NGFcvetei-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.general.tunnel" vertex="1" parent="1">
           <mxGeometry x="499" y="622" width="50" height="9" as="geometry" />
